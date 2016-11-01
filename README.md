@@ -17,8 +17,9 @@ This directory contains the unlabelled data files that needs to be classified as
 Running
 -------
     
-- This repo contains two programs: nblearn.py will learn a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. 
-- nbclassify.py will use the model to classify new data. 
+- This repo contains two programs: 
+    - nblearn.py will learn a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. 
+    - nbclassify.py will use the model to classify new data. 
 
 nblearn.py will be invoked in the following way:
     
