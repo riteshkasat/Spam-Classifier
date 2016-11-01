@@ -6,18 +6,19 @@ Requirements
 - Python 3
 
 - **train-data**
-This directory stores the training data. The code recursively looks for directories: "ham" and "spam". You can have multiple "ham" and "spam" directories inside this directory. Emails are stored in files with the extension ".txt" under these directories.
+This directory contains the training data. The code recursively looks for sub-directories: "ham" and "spam". You can have multiple "ham" and "spam" sub-directories inside this directory. Emails must be stored in files with the extension ".txt" under these sub-directories.
 
 
 - **test-data**
-This directory stores the unlabelled data files that needs to be classified as spam or ham.
+This directory contains the unlabelled data files that needs to be classified as spam or ham.
 
 **Note:** This repo contains demo data with a handful of spam and ham files for training. For significant results, please collect large amount of training data.
 
 Running
 -------
     
-This repo contains two programs: nblearn.py will learn a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. nbclassify.py will use the model to classify new data. 
+- This repo contains two programs: nblearn.py will learn a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. 
+- nbclassify.py will use the model to classify new data. 
 
 nblearn.py will be invoked in the following way:
     
@@ -29,8 +30,8 @@ nbclassify.py will be invoked will be invoked in the following way:
 
 this will write the result to a text file called nboutput.txt in the following format:
 
-LABEL path_1
-LABEL path_2
-⋮
+LABEL path_1<br/>
+LABEL path_2</br/>
+⋮</br>
 In the above format, LABEL is either “spam” or “ham” and path is the path to the file, and the name of filename 
 
