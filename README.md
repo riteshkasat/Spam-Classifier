@@ -12,6 +12,9 @@ This directory contains the training data. The code recursively looks for sub-di
 - **test-data**
 This directory contains the unlabelled data files that needs to be classified as spam or ham.
 
+- **stopwords.txt**
+This is a text file that contains list of words which are filtered out before processing of natural language data (text)
+
 **Note:** This repo contains demo data with a handful of spam and ham files for training. For significant results, please collect large amount of training data.
 
 Running
