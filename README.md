@@ -1,6 +1,11 @@
 # Email Spam Classifier
 This is an implementation of the simple but effective machine learning technique, Naïve Bayes classification for a binary text classification task (i.e., spam detection).
 
+Requirements
+-------------
+- Python 3
+
+
 Installation
 ------------
 
