@@ -5,6 +5,16 @@ Requirements
 -------------
 - Python 3
 
+Data
+-----
+**train-data**
+This directory stores the training data. The code recursively looks for folders: "ham" and "spam". You can have multiple "ham" and "spam" folders in the data directory. Emails are stored in files with the extension ".txt" under these directories.
+
+
+**test-data**
+This directory stores the unlabelled data files that needs to be classified as spam or ham.
+
+**Note:** The repo contains dummy data with handful of spam and ham files for training. For significant result, please collect large amount of data.
 
 Installation
 ------------
