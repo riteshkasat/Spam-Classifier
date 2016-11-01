@@ -3,7 +3,7 @@ This is an implementation of the simple but effective machine learning technique
 
 Requirements
 -------------
-- Python 3
+- **Python 3**
 
 - **train-data**
 This directory contains the training data. The code recursively looks for sub-directories: "ham" and "spam". You can have multiple "ham" and "spam" sub-directories inside this directory. Emails must be stored in files with the extension ".txt" under these sub-directories.
@@ -21,8 +21,8 @@ Running
 -------
     
 - This repo contains two programs: 
-    - nblearn.py will learn a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. 
-    - nbclassify.py will use the model to classify new data. 
+    - nblearn.py which learns a naive Bayes model from labeled data, and write the model parameters to a file called nbmodel.txt. 
+    - nbclassify.py will use the model generated in above step to classify new data. 
 
 nblearn.py will be invoked in the following way:
     
