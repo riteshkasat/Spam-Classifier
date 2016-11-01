@@ -14,7 +14,7 @@ This directory stores the training data. The code recursively looks for folders:
 **test-data**
 This directory stores the unlabelled data files that needs to be classified as spam or ham.
 
-**Note:** The repo contains dummy data with handful of spam and ham files for training. For significant result, please collect large amount of data.
+**Note:** The repo contains demo data with handful of spam and ham files for training. For significant result, please collect large amount of data.
 
 Installation
 ------------
