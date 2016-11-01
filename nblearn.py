@@ -40,7 +40,7 @@ def calculateWordProbabilities(category):
 
 if __name__ == '__main__':
     stopword = set()
-    with open("/Users/ritesh/Documents/NLP/part4/stopwords.txt") as f:
+    with open("stopwords.txt") as f:
         for line in f:
             stopword.add(line.strip())
 
